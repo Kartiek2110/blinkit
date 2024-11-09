@@ -1,0 +1,20 @@
+<%- include('./partials/header'); %>
+
+    <body class="h-screen w-screen flex items-center justify-center bg-gray-100">
+
+        <div class="relative h-full w-full">
+            <!-- Full-screen Image -->
+        <img src="https://krishilabs.com/_next/image?url=%2Fconnect%2FconnectBg.png&w=3840&q=75" alt="" class="w-full h-full object-cover">
+        <h1 class="absolute text-white  text-9xl top-1/2 left-[30%]">कृषिConnect</h1>
+            <!-- Button at the Bottom -->
+            <div class="absolute bottom-0 w-full flex justify-center mb-8">
+                <a href="/auth/google"
+                    class="bg-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-black transition duration-300">
+                    Continue with Google
+                </a>
+            </div>
+        </div>
+
+    </body>
+
+    <%- include('./partials/footer'); %>
